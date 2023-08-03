@@ -1,0 +1,72 @@
+.text-box > h3:first-child{
+    color: pink;
+}
+
+#greycol{
+    color: grey;
+}
+
+.text-box > div > p {
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+div+h3+p{
+    color: green;
+}
+
+#monday>li:first-child{
+    color: brown;
+}
+
+#monday>li>a:visited {
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+}
+
+#tuesday>li:last-child{
+    color: red;
+}
+
+#tuesday>li>a:hover {
+    text-decoration:line-through;
+    color: violet;
+    font-size: 30px;
+}
+
+#wednesday>li:nth-child(2n){
+    color: green;
+}
+
+#wednesday>li>a:active {
+    color: fuchsia;
+    font-size: 100px;
+}
+
+#thursday>li:nth-child(odd){
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+#thursday>li>button:disabled {
+    color: red;
+    background-color: transparent;
+}
+
+#thursday>li>button:enabled {
+    color: darkgreen;
+    background-color: aqua;
+}
+
+#friday>li:nth-child(-n+4){
+    color: blue;
+}
+
+#friday>li>input:focus {
+    color: red;
+}
